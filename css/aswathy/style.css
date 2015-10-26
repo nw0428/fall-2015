@@ -158,3 +158,31 @@ width: 150px;
 	background-color: #385E66;
 	border-radius: 3px;
 }
+.contact nav{
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 20px;
+
+}
+.contact nav ul{
+	list-style: none;
+	margin: 0 auto;
+}
+.contact nav ul li{
+	float: left;
+	display: inline;
+}
+.contact nav a:link, .contact nav a:visited {
+color: #FFF;
+display: inline-block;
+padding: 10px 25px;
+height: 10px;
+}
+.contact nav a:hover, .contact nav a:active,
+.contact nav .active a:link, .contact nav .active a:visited{
+	background-color: #CF5C3F;
+	height: 20px;
+	border-radius: 5px;
+
+}
