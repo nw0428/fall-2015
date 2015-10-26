@@ -1,0 +1,45 @@
+body {
+  background-color: #DBA901;
+  font-family: Impact, Arial, Sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #61210B;
+}
+
+#container {
+  background-color: #DF0101;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  background-color: #F5DA81;
+  width: 1230
+
+}
+
+#middle {
+
+}
+
+#sidebar {
+width: 180px;
+height: 398px;
+text-align: center;
+float: left;
+background-color: #4B8A08;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  text-align: left;
+  padding: 3;
+}
+
+#mypic {
+width: 600px;
+float: right;
+}
