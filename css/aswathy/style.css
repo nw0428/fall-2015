@@ -1,0 +1,188 @@
+
+
+
+body {
+	background-image: url('../../img/aswathy/building.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #000305;
+	font-size: 87.5%;
+	font-family: Avant Garde;
+	line-height: 1.5;
+	text-align: left;
+}
+a {
+	text-decoration: none;;
+}
+a:link, a:visited{
+
+}
+a:hover, a:active {
+
+}
+.body {
+	margin: 0 auto;
+	width: 70%
+}
+.mainHeader h1 {
+	text-align: center;
+	margin-top: 200px;
+}
+.mainHeader h2{
+	text-align: center;
+	/*margin-top: 220px;*/
+
+}
+.mainHeader nav {
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 20px;
+	
+}
+.mainHeader nav ul{
+	list-style: none;
+	margin: 0 auto;
+}
+.mainHeader nav ul li{
+	float: left;
+	display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+color: #FFF;
+display: inline-block;
+padding: 10px 25px;
+height: 10px;
+}
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited{
+	background-color: #CF5C3F;
+	height: 20px;
+	border-radius: 5px;
+
+}
+.mainFooter{
+	position: absolute;
+	bottom: 0;
+	height: 40px;
+	margin-top: 40px;
+}
+.aboutContent nav{
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 20px;
+
+}
+.aboutContent nav ul{
+	list-style: none;
+	margin: 0 auto;
+}
+.aboutContent nav ul li{
+	float: left;
+	display: inline;
+}
+.aboutContent nav a:link, .aboutContent nav a:visited {
+color: #FFF;
+display: inline-block;
+padding: 10px 25px;
+height: 10px;
+}
+.aboutContent nav a:hover, .aboutContent nav a:active,
+.aboutContent nav .active a:link, .aboutContent nav .active a:visited{
+	background-color: #CF5C3F;
+	height: 20px;
+	border-radius: 5px;
+
+}
+.aboutContent .Header{
+	text-align: left;
+
+}
+.portfolio nav{
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.portfolio nav ul li{
+	float: left;
+	display: inline;
+}
+
+.portfolio nav a:link, .portfolio nav a:visited {
+color: #FFF;
+display: inline-block;
+padding: 10px 25px;
+height: 10px;
+}
+.portfolio nav a:hover, .portfolio nav a:active,
+.portfolio nav .active a:link, .portfolio nav .active a:visited{
+	background-color: #CF5C3F;
+	height: 20px;
+	border-radius: 5px;
+
+}
+
+.contact {
+	padding: 50px 100px;
+	font-weight: 13px;
+	font-style: verdana;
+}
+.contact h2{
+	margin-bottom: 20px;
+}
+.contact input, textarea{
+	padding: 10PX;
+	border: 1px solid #E5E5E5;
+	width:200px;
+}
+.contact textarea{
+	width: 400px;
+	height: 200px;
+	max-width: 400px;
+	max-height: 200px;
+}
+input:hover, textarea:hover,
+input:focus, textarea:focus{
+	border: 1px solid #CF5C3F;
+}
+.contact .form label{
+	margin-left: 10px;
+}
+.contact .submit input{
+width: 150px;
+	height: 40px;
+	background-color: #385E66;
+	border-radius: 3px;
+}
+.contact nav{
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+	margin-top: 20px;
+
+}
+.contact nav ul{
+	list-style: none;
+	margin: 0 auto;
+}
+.contact nav ul li{
+	float: left;
+	display: inline;
+}
+.contact nav a:link, .contact nav a:visited {
+color: #FFF;
+display: inline-block;
+padding: 10px 25px;
+height: 10px;
+}
+.contact nav a:hover, .contact nav a:active,
+.contact nav .active a:link, .contact nav .active a:visited{
+	background-color: #CF5C3F;
+	height: 20px;
+	border-radius: 5px;
+
+}
