@@ -1,50 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="All about Rachael">
-    <meta name="author" content="Rachael Burger">
-    <link rel="icon" href="docs/favicon.ico">
+<meta charset="utf-8">
+<!-- Assures proper rendering and touch zooming -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 
-    <title>All about Rachael</title>
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
 
-    <!-- Bootstrap core CSS -->
-    <link href="docs/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Pull in Jquery (from W3 schools tutorial) this has to appear before bootstrap.min.js -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-    <!-- Javascript for Bootstrap -->
-    <script src="docs/dist/js/bootstrap.js"></script>
-    <script src="docs/dist/js/npm.js"></script>
-    <script src="js/dropdown.js"></script>
-    <script src="docs/assets/js/customize.min.js"></script>
-
-    <!-- Custom styles for this template -->
-    <link href="jumbotron.css" rel="stylesheet">
-   
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="docs/assets/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
   </head>
 
 <!-- navigation -->
 
 <nav class = "navbar navbar-default" role = "navigation">
-   
    <div class = "navbar-header">
+      <!-- add a button in for small screen -->
+      <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar blue"></span>
+        <span class="icon-bar blue"></span>
+        <span class="icon-bar blue"></span> 
+      </button>
+      <!-- close button -->
       <a class = "navbar-brand" href = "#" data-toggle="tooltip" data-placement="top" title="If you'd really like to learn about Rachael, try her website at wordaroundtown.com">The Zen of Cauliflower</a>
    </div>
    
-   <div>
+   <!-- added line below to collapse navbar for button (above) -->
+    <div class="collapse navbar-collapse" id="myNavbar">
       <ul class = "nav navbar-nav">
          <li class = "active"><a href = "#">Garden</a></li>
          <li><a href = "#">Building</a></li>
@@ -56,7 +44,6 @@
             </a>
             
             <ul class = "dropdown-menu">
-               <li class="divider"></li>
                <li><a href = "http://www.wordaroundtown.com/best-of-online-learning-resources-for-coding">Online Resources</a></li>
                 <li class="divider"></li>
                <li><a href = "http://www.wordaroundtown.com/coding/random-basho-haiku-text-message-generator">Haiku Generator</a></li>
@@ -80,11 +67,11 @@
 </nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>The Cauliflower Consists of Non-Cauliflower Elements</h1>
-        <p>(see below)</p>
-        <p><a class="btn btn-primary btn-lg" href="http://www.wordaroundtown.com" role="button">Learn more &raquo;</a></p>
+    <div class="jumbotron" style="background-image: url(http://www.wordaroundtown.com/wp-content/uploads/images/cauliflower.jpg); background-size: 100%;>
+      <div class="container" style="margin-left:40px">
+        <h1 style="margin-left:40px">The Cauliflower Consists of Non-Cauliflower Elements</h1>
+        <p style="margin-left:40px">(see below)</p>
+        <p style="margin-left:40px"><a class="btn btn-primary btn-lg" href="http://www.wordaroundtown.com" role="button">Learn more &raquo;</a></p>
       </div>
     </div>
 
@@ -123,26 +110,7 @@
     </div> <!-- /container -->
 
     <!-- <script type="text/javascript"> -->
-    //   var hello = "Hello World! As Variable";
-
-    //   var my_object = {
-    //     name: "Lee", 
-    //     dog: "Fido", 
-    //     grocery_list: ["Eggs", "Bread", "Milk"]
-    //   };
-
-      // $.ajax({
-      //   url: 'http:lee.com/groceries/', 
-      //   method: 'GET', 
-      //   success: function(json) {
-      //     // use your equivalent of my_object
-      //   }
-      // })
-
-
-      console.log(my_object);
-    </script>
-
+    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
